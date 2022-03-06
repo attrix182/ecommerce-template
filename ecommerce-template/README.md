@@ -67,5 +67,5 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 ## How to run
 
  1° npm i && npm ci && composer install
- 2° php artisan migrate
+ 2° php artisan serve
  3° npm run dev || npm run hot (to live reload)
