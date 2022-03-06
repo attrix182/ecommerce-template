@@ -11,7 +11,14 @@ import Vue from 'vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
+
 import BootstrapVue from 'bootstrap-vue'
+
+
+import * as VueAos from 'vue-aos'
+
+Vue.use(VueAos)
+
 Vue.use(BootstrapVue) // Telling Vue to use this in whole application
 
 window.Vue = require('vue').default;
